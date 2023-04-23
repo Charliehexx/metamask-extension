@@ -83,6 +83,7 @@
 @import 'transaction-status-label/index';
 @import 'wallet-overview/index';
 @import 'whats-new-popup/index';
+@import 'terms-of-use-popup/index';
 @import 'loading-network-screen/index';
 @import 'transaction-decoding/index';
 @import 'advanced-gas-fee-popover/index';
@@ -103,3 +104,6 @@
 @import 'network-account-balance-header/index';
 @import 'approve-content-card/index';
 @import 'transaction-alerts/transaction-alerts';
+///: BEGIN:ONLY_INCLUDE_IN(mmi)
+@import '../institutional/transaction-failed-modal/index';
+///: END:ONLY_INCLUDE_IN
